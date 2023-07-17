@@ -1,7 +1,7 @@
 /*
 
 This is a calculator for conditional probabilities made 
-with the intention of usage within the Behavior Analytics field.
+for use in behavior sciences and related fields.
 
 It is written in JavaScript and React
 
