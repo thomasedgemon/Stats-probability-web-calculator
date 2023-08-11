@@ -1,18 +1,16 @@
-//import "./App.css";
-//import React, { useState } from "react";
-import { render } from "react-dom";
-import ReactDOM from "react-dom";
-//import Popup from "reactjs-popup";
-//import "reactjs-popup/dist/index.css";
+import "./App.css";
+import React, { useState, render } from "react";
+import ReactDOM from "react-dom/client";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 import "./components.js";
 import { UnderTheHood } from "./components.js";
-import { PopupWindow } from "./components.js";
-import { TheMath } from "./components.js";
 
 function App() {
   return (
     <div>
-      <UnderTheHood /> <PopupWindow />
+      <h1> Created and Maintained by Thomas and Anna Kate Edgemon </h1>
+      <UnderTheHood />
     </div>
   );
 }
