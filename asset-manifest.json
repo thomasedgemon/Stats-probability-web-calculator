@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stats-probability-web-calculator/static/css/main.a0893c0a.css",
+    "main.js": "/stats-probability-web-calculator/static/js/main.e55773f7.js",
+    "index.html": "/stats-probability-web-calculator/index.html",
+    "main.a0893c0a.css.map": "/stats-probability-web-calculator/static/css/main.a0893c0a.css.map",
+    "main.e55773f7.js.map": "/stats-probability-web-calculator/static/js/main.e55773f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0893c0a.css",
+    "static/js/main.e55773f7.js"
+  ]
+}
