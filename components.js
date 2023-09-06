@@ -17,7 +17,7 @@ export function UnderTheHood() {
   var PofA = userValue1 / userValue4;
   var PofB = userValue2 / userValue4;
   //calculated probs
-  var PofAgivenB = userValue5 / userValue4 / PofB;
+  var PofAgivenB = (userValue5 / userValue4) / PofB;
   var PofAgivenC = userValue6 / userValue4 / PofC;
   var PofBgivenA = userValue5 / userValue4 / PofA;
   var PofBgivenC = userValue7/ userValue4 / PofC;
