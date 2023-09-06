@@ -17,14 +17,14 @@ export function UnderTheHood() {
   var PofA = userValue1 / userValue4;
   var PofB = userValue2 / userValue4;
   //calculated probs
-  var PofAgivenB = userValue5 / PofB;
-  var PofAgivenC = userValue6 / PofC;
-  var PofBgivenA = userValue5 / PofA;
-  var PofCgivenA = userValue6 / PofA;
-  var PofCgivenB = userValue7 / PofB;
-  var PofBgivenC = userValue7 / PofC;
-  var AintBintC = userValue8;
-  var PofAGivenBandTheta = AintBintC / userValue7;
+  var PofAgivenB = userValue5 / userValue4 / PofB;
+  var PofAgivenC = userValue6 / userValue4 / PofC;
+  var PofBgivenA = userValue5 / userValue4 / PofA;
+  var PofBgivenC = userValue7/ userValue4 / PofC;
+  var PofCgivenA = userValue6 / userValue4 / PofA;
+  var PofCgivenB = userValue7 / userValue4 / PofB;
+  var PofAintBintC = userValue8 / userValue4;
+  var PofAGivenBandTheta = PofAintBintC / userValue7;
   //probabilities rounded
   PofC = PofC.toFixed(2);
   PofA = PofA.toFixed(2);
